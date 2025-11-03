@@ -18106,7 +18106,7 @@ function X5({ children: l }) {
 }
 function V5() {
   return /* @__PURE__ */ lt.jsxs(X5, { children: [
-    "Elena??yo",
+    "Elena??yolo",
     /* @__PURE__ */ lt.jsx(k5, {})
   ] });
 }
