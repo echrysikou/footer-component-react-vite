@@ -21609,20 +21609,16 @@ const qA = async (n) => {
   };
 }, $A = ({ children: n, language: l }) => {
   const [i, u] = Y.useState();
-  return console.log("Elena irhte?", l), Y.useEffect(() => {
+  return Y.useEffect(() => {
     qA(l).then(({ en: s, current: f }) => {
       const h = { ...s, ...f };
       u(h);
     });
   }, [l]), /* @__PURE__ */ J.jsx(J.Fragment, { children: i && /* @__PURE__ */ J.jsx(zA, { locale: l, defaultLocale: "en", messages: i, children: n }) });
-}, YA = ({ language: n }) => (console.log("Elena to langh", n), /* @__PURE__ */ J.jsxs(kA, { children: [
+}, YA = ({ language: n }) => /* @__PURE__ */ J.jsxs(kA, { children: [
   /* @__PURE__ */ J.jsx("style", { children: `
           @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');  
        ` }),
   /* @__PURE__ */ J.jsx($A, { language: n ?? "en", children: /* @__PURE__ */ J.jsx(wA, {}) })
-] })), VA = p1(YA, {
-  props: {
-    language: "string"
-  }
-});
+] }), VA = p1(YA);
 customElements.define("urbreath-footer", VA);
