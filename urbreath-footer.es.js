@@ -21619,7 +21619,10 @@ const qA = async (n) => {
   /* @__PURE__ */ J.jsx("style", { children: `
           @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');  
        ` }),
-  /* @__PURE__ */ J.jsx($A, { language: n ?? "en", children: /* @__PURE__ */ J.jsx(wA, {}) })
+  /* @__PURE__ */ J.jsxs($A, { language: n ?? "en", children: [
+    "Elena",
+    /* @__PURE__ */ J.jsx(wA, {})
+  ] })
 ] }), VA = p1(YA, {
   props: {
     language: "string"
